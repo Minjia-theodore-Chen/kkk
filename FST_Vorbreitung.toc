@@ -2,31 +2,31 @@
 \contentsline {part}{I\hspace {1em}M\"ogliche Klasurthemen}{3}{part.1}%
 \contentsline {section}{\numberline {1}Vorlesung}{3}{section.1}%
 \contentsline {section}{\numberline {2}\"Ubung}{4}{section.2}%
-\contentsline {part}{II\hspace {1em}Fahrzeugsystemtechnik allegemain}{5}{part.2}%
-\contentsline {section}{\numberline {1}Fahrzeugsystemtechnik}{5}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Was versteht man unter dem Begriff der Emergenz?}{5}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Systemtheorie}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Welche Bedingungen müssen erfüllt sein, um ein System als linear zu klassifizieren? Geben Sie auch eine mathematische Formulierung der nötigen Bedingungen an.}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Wie ist Übertragungsstabilität für ein zeitkontinuierliches System definiert (qualitativ)?}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Geben Sie die allgemeine vektorielle Darstellung der Zustandsgleichung für die Systembeschreibung an. }{5}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Erläutern Sie qualitativ welches Wissen über das System in welchen Matrizen modelliert wird.}{5}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Wie lässt sich aus der Zustandsraumdarstellung die Übertragungsfunktion eines Systems ermitteln? Geben Sie hierbei auch Ihre Herleitung an.}{5}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Wie ist die Zustandsstabilität eines Systems qualitativ definiert? Geben Sie zusätzlich ein mathematisches Kriterium an.}{5}{subsection.2.6}%
-\contentsline {subsection}{\numberline {2.7}Nennen Sie ein mathematisches Kriterium zum Prüfen der Steuerbarkeit. }{5}{subsection.2.7}%
-\contentsline {part}{III\hspace {1em}Wissensrepräsentation und lineare kontinuierliche Systeme}{6}{part.3}%
-\contentsline {section}{\numberline {3}Lineare kontinuierliche Systeme}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Welche Annahmen liegen dem linearen Einspurmodell zugrunde? Nennen Sie mindestens 5 Stück.}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Zeichnen Sie ein Blockschaltbild eines dynamischen Systems mit Beobachter. Beschriften Sie das Blockschaltbild sorgfältig.}{6}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Reduzieren Sie das gegebene Querführungsmodell 5.Ordnung soweit wie möglich, so dass damit ein Schwimmwinkelbeobachter konstruierbar ist. Notieren Sie das Modell in Zustandsdarstellung unter der Annahme, dass der Lenkwinkel die einzige Eingangsgröße ist.}{6}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Beschriften Sie folgende schematische Darstellung des linearen Einspurmodells in der nachstehenden Tabelle.}{7}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Beobachter}{7}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}Wo liegen die Pole der Übertragungsmatrix eines Beobachters in Abhängigkeit von der Rückführungsmatrix L? Geben Sie eine Herleitung für Ihr Ergebnis an.}{7}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}}{7}{subsubsection.3.5.2}%
-\contentsline {paragraph}{1.Überprüfen Sie das System auf die Beobachtbarkeit. }{7}{section*.3}%
-\contentsline {paragraph}{2. Bestimmen Sie die Beobachterkoeffizienten und . }{7}{section*.4}%
-\contentsline {part}{IV\hspace {1em}UML}{8}{part.4}%
-\contentsline {part}{V\hspace {1em}Architekturen}{9}{part.5}%
-\contentsline {part}{VI\hspace {1em}Systematischer Entwurf von Fahrerassistenzsystemen}{10}{part.6}%
-\contentsline {part}{VII\hspace {1em}Entwurfsprozesse und Anforderungsanalyse}{11}{part.7}%
-\contentsline {part}{VIII\hspace {1em}Testen}{12}{part.8}%
-\contentsline {part}{IX\hspace {1em}Funktionale Sicherheit}{13}{part.9}%
+\contentsline {part}{II\hspace {1em}Fahrzeugsystemtechnik allegemain}{6}{part.2}%
+\contentsline {section}{\numberline {1}Fahrzeugsystemtechnik}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}}{6}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Systemtheorie}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}}{7}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}}{7}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}}{7}{subsection.2.7}%
+\contentsline {part}{III\hspace {1em}Wissensrepräsentation und lineare kontinuierliche Systeme}{8}{part.3}%
+\contentsline {section}{\numberline {3}Lineare kontinuierliche Systeme}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}}{8}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}}{8}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Beschriften Sie folgende schematische Darstellung des linearen Einspurmodells in der nachstehenden Tabelle.}{9}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Beobachter}{10}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}Wo liegen die Pole der Übertragungsmatrix eines Beobachters in Abhängigkeit von der Rückführungsmatrix L? Geben Sie eine Herleitung für Ihr Ergebnis an.}{10}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}}{10}{subsubsection.3.5.2}%
+\contentsline {paragraph}{1.Überprüfen Sie das System auf die Beobachtbarkeit. }{10}{section*.3}%
+\contentsline {paragraph}{2. Bestimmen Sie die Beobachterkoeffizienten und . }{10}{section*.4}%
+\contentsline {part}{IV\hspace {1em}UML}{11}{part.4}%
+\contentsline {part}{V\hspace {1em}Architekturen}{12}{part.5}%
+\contentsline {part}{VI\hspace {1em}Systematischer Entwurf von Fahrerassistenzsystemen}{13}{part.6}%
+\contentsline {part}{VII\hspace {1em}Entwurfsprozesse und Anforderungsanalyse}{14}{part.7}%
+\contentsline {part}{VIII\hspace {1em}Testen}{15}{part.8}%
+\contentsline {part}{IX\hspace {1em}Funktionale Sicherheit}{16}{part.9}%

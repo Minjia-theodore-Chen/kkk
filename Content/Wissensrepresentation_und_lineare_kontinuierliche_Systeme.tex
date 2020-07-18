@@ -1,11 +1,14 @@
 \part{Wissensrepräsentation und lineare kontinuierliche Systeme}
 \section{Lineare kontinuierliche Systeme}
-\subsection{Welche Annahmen liegen dem linearen Einspurmodell zugrunde? Nennen Sie mindestens 5 Stück.}
-\subsection{Zeichnen Sie ein Blockschaltbild eines dynamischen Systems mit Beobachter. Beschriften Sie das
-    Blockschaltbild sorgfältig.}
-\subsection{Reduzieren Sie das gegebene Querführungsmodell 5.Ordnung soweit wie möglich, so dass damit ein
-    Schwimmwinkelbeobachter konstruierbar ist. Notieren Sie das Modell in Zustandsdarstellung unter der
-    Annahme, dass der Lenkwinkel die einzige Eingangsgröße ist.}
+\subsection{}
+\textbf{Welche Annahmen liegen dem linearen Einspurmodell zugrunde? Nennen Sie mindestens 5 Stück.}
+
+\subsection{}
+\textbf{Zeichnen Sie ein Blockschaltbild eines dynamischen Systems mit Beobachter. Beschriften Sie das Blockschaltbild sorgfältig.}
+
+\subsection{}
+\textbf{Reduzieren Sie das gegebene Querführungsmodell 5.Ordnung soweit wie möglich, so dass damit ein Schwimmwinkelbeobachter konstruierbar ist. Notieren Sie das Modell in Zustandsdarstellung unter der Annahme, dass der Lenkwinkel die einzige Eingangsgröße ist.}
+
 \begin{equation}
     \left(
     \begin{array}{c}
@@ -55,46 +58,56 @@
 \end{equation}
 \subsection{Beschriften Sie folgende schematische Darstellung des linearen Einspurmodells in der nachstehenden Tabelle.}
 \begin{figure}[H]
+    \centering
     \begin{minipage}[c]{.45\linewidth}
+        \centering
         \includegraphics[width=\linewidth]{Graphics/Linearen_Einspurmodell.png}
     \end{minipage}
     \begin{minipage}[c]{.45\linewidth}
-        \begin{tabular}{|p{.2\linewidth}|p{.4\linewidth}|p{.4\linewidth}|}
+        \centering
+        \begin{tabular}{|p{.05\linewidth}|p{.2\linewidth}|p{.6\linewidth}|}
             \hline
-            Nr.&Bezeichnung&Bedeutung\\
+            Nr. & Bezeichnung & Bedeutung \\
             \hline
-            1& & \\
+            1   &             &           \\
+            &&\\
             \hline
-            2& & \\
+            2   &             &           \\
+            &&\\
             \hline
-            3& & \\
+            3   &             &           \\
+            &&\\
             \hline
-            4& & \\
+            4   &             &           \\
+            &&\\
             \hline
-            5& & \\
+            5   &             &           \\
+            &&\\
             \hline
-            6& & \\
+            6   &             &           \\
+            &&\\
             \hline
-            7& & \\
+            7   &             &           \\
+            &&\\
             \hline
         \end{tabular}
     \end{minipage}
 \end{figure}
 \subsection{Beobachter}
 \subsubsection{Wo liegen die Pole der Übertragungsmatrix eines Beobachters in Abhängigkeit von der Rückführungsmatrix
-L? Geben Sie eine Herleitung für Ihr Ergebnis an.}
+    L? Geben Sie eine Herleitung für Ihr Ergebnis an.}
 \subsubsection{}
 Für folgendes System soll ein Beobachter zur Zustandsrekonstruktion so entworfen werden, dass
 die Beobachterfehlerdynamik einen doppelten Pol bei $s=-2$ aufweist.
 \begin{equation}
     \begin{array}{l}
         \dot{x}=\left[\begin{array}{cc}
-            2&1\\
-            -1&0\\
-        \end{array}\right]x+\left[\begin{array}{c}
-            0\\
-            1\\
-        \end{array}\right]u\\
+                2  & 1 \\
+                -1 & 0 \\
+            \end{array}\right]x+\left[\begin{array}{c}
+                0 \\
+                1 \\
+            \end{array}\right]u \\
         y=\left[1\qquad 0\right]x
     \end{array}
 \end{equation}

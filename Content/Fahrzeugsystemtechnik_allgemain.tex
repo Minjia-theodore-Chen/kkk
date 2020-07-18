@@ -1,16 +1,51 @@
 \setcounter{section}{0}
 \part{Fahrzeugsystemtechnik allegemain}
 \section{Fahrzeugsystemtechnik}
-\subsection{Was versteht man unter dem Begriff der Emergenz?}
+\subsection{}\textbf{Was versteht man unter dem Begriff der Emergenz?}
+
+Emergenz ist das Prinzip, dass Systeme wichtige Eigenschaften (z.B. Komfort, Sicherheit) nur aufweisen, wenn sie auf das ganze System angewendet werden und nicht auf einzelne Teile.
 
 \section{Systemtheorie}
-\subsection{Welche Bedingungen müssen erfüllt sein, um ein System als linear zu klassifizieren?
-    Geben Sie auch eine mathematische Formulierung der nötigen Bedingungen an.}
-\subsection{Wie ist Übertragungsstabilität für ein zeitkontinuierliches System definiert (qualitativ)?}
-\subsection{Geben Sie die allgemeine vektorielle Darstellung der Zustandsgleichung für die Systembeschreibung an. }
-\subsection{Erläutern Sie qualitativ welches Wissen über das System in welchen Matrizen modelliert wird.}
-\subsection{Wie lässt sich aus der Zustandsraumdarstellung die Übertragungsfunktion eines Systems ermitteln? Geben
-    Sie hierbei auch Ihre Herleitung an.}
-\subsection{Wie ist die Zustandsstabilität eines Systems qualitativ definiert? Geben Sie zusätzlich ein mathematisches
-    Kriterium an.}
-\subsection{Nennen Sie ein mathematisches Kriterium zum Prüfen der Steuerbarkeit. }
+\subsection{}
+\textbf{Welche Bedingungen müssen erfüllt sein, um ein System als linear zu klassifizieren? Geben Sie auch eine mathematische Formulierung der nötigen Bedingungen an.}
+
+Ein System ist linear, wenn die Bedingungen der Linearität und der Additivität erfüllt sind. Ist eine der Bedingungen nicht erfüllt ist, ist das System nicht linear!
+\begin{itemize}
+    \item Linearit\"at：Vergrößerung des Eingangssignal um eine beliebige Konstante c vergrößert auch das Ausgangssignal um die Konstante c.
+          \begin{equation}
+              \begin{aligned}
+                  y_1        & =S\{u_1\}        \\
+                  c\cdot y_1 & =S\{c\cdot u_1\} \\
+              \end{aligned}
+          \end{equation}
+    \item Additivit\"at: Die Summe zweier Signale am Eingang ergibt das gleiche Ausgangssignal wie wenn die beiden einzelnen Ausgangssignale addiert werden.
+          \begin{equation}
+              \begin{aligned}
+                  y_1     & =S\{u_1\}          \\
+                  y_2     & =S\{u_2\}          \\
+                  y_1+y_2 & =S\{u_1\}+S\{u_2\} \\
+              \end{aligned}
+          \end{equation}
+\end{itemize}
+Zusammen:
+\begin{equation}
+    c_1\cdot y_1+c_2\cdot y_2=S\{c_1\cdot u_1+c_2\cdot u_2\}
+\end{equation}.
+
+\subsection{}
+\textbf{Wie ist Übertragungsstabilität für ein zeitkontinuierliches System definiert (qualitativ)?}
+
+\subsection{}
+\textbf{Geben Sie die allgemeine vektorielle Darstellung der Zustandsgleichung für die Systembeschreibung an.}
+
+\subsection{}
+\textbf{Erläutern Sie qualitativ welches Wissen über das System in welchen Matrizen modelliert wird.}
+
+\subsection{}
+\textbf{Wie lässt sich aus der Zustandsraumdarstellung die Übertragungsfunktion eines Systems ermitteln? Geben Sie hierbei auch Ihre Herleitung an.}
+
+\subsection{}
+\textbf{Wie ist die Zustandsstabilität eines Systems qualitativ definiert? Geben Sie zusätzlich ein mathematisches Kriterium an.}
+
+\subsection{}
+\textbf{Nennen Sie ein mathematisches Kriterium zum Prüfen der Steuerbarkeit.}
