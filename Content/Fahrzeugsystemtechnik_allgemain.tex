@@ -35,15 +35,85 @@ Zusammen:
 \subsection{}
 \textbf{Wie ist Übertragungsstabilität für ein zeitkontinuierliches System definiert (qualitativ)?}
 
+Ein zeitkontinuierliches System ist übertragungsstabil, wenn es auf jede beschränkte Eingangsgröße mit einer beschränkten Ausgangsgröße antwortet.
+
+Sonst heißt das System übertragungsinstabil!
+
+Übertragungsstabilität wird deshalb auch BIBO-Stabilität (Bounded Input – Bounded Output) genannt.
+
+\textbf{Übertragungsfunktions-Kriterium zur Ermittlung der Übertragungsstabilität:}
+
+Ein LZI-System mit der rationalen Übertragungsfunktion ist übertragungsstabil, wenn alle Pole seiner Übertragungsfunktion in der linken s-Halbebene liegen.
 \subsection{}
 \textbf{Geben Sie die allgemeine vektorielle Darstellung der Zustandsgleichung für die Systembeschreibung an.}
+
+\begin{equation}
+    \begin{aligned}
+        \left[
+            \begin{array}{c}
+                \dot{x_1}(t) \\
+                \cdot        \\
+                \cdot        \\
+                \cdot        \\
+                \dot{x_n}(t) \\
+            \end{array}
+        \right] & =\underbrace{\left[
+                \begin{array}{ccccc}
+                    a_{11} & \cdot & \cdot & \cdot & a_{1n} \\
+                    \cdot  & \cdot & \cdot & \cdot & \cdot  \\
+                    \cdot  & \cdot & \cdot & \cdot & \cdot  \\
+                    \cdot  & \cdot & \cdot & \cdot & \cdot  \\
+                    a_{n1} & \cdot & \cdot & \cdot & a_{nn} \\
+                \end{array}
+                \right]}_{systemmatrix}\underbrace{\left[
+                \begin{array}{c}
+                    x_1(t) \\
+                    \cdot  \\
+                    \cdot  \\
+                    \cdot  \\
+                    x_n(t) \\
+                \end{array}
+                \right]}_{Zustandsvektor}+\underbrace{\left[
+                \begin{array}{c}
+                    b_1   \\
+                    \cdot \\
+                    \cdot \\
+                    \cdot \\
+                    b_n   \\
+                \end{array}
+                \right]}_{Eingangsvektor}
+        \cdot u(t)                                                                                 \\
+        y(t)    & =\underbrace{\left[\begin{array}{ccccc}
+                    c_1 & \cdot & \cdot & \cdot & c_n
+                \end{array}\right]}_{Ausgangsvektor}\cdot\left[
+            \begin{array}{c}
+                x_1(t) \\
+                \cdot  \\
+                \cdot  \\
+                \cdot  \\
+                x_n(t) \\
+            \end{array}
+            \right]+\underbrace{d}_{Durchgangsfaktor(meist=0)}\cdot u(t)
+    \end{aligned}
+\end{equation}
 
 \subsection{}
 \textbf{Erläutern Sie qualitativ welches Wissen über das System in welchen Matrizen modelliert wird.}
 
 \subsection{}
 \textbf{Wie lässt sich aus der Zustandsraumdarstellung die Übertragungsfunktion eines Systems ermitteln? Geben Sie hierbei auch Ihre Herleitung an.}
-
+\begin{equation}
+    \begin{aligned}
+        \dot{x}(t)             & =A\cdot x(t)+b\cdot u(t)\qquad Annahme x(0)=0           \\
+        sX(s)                  & =A\cdot X(s)+b\cdot u(s)                                \\
+        sX(s)-A\cdot X(s)      & =b\cdot u(s)                                            \\
+        (s\cdot I-A)\cdot X(s) & =b\cdot u(s)                                            \\
+        X(s)                   & =(S\cdot I-A)^{-1}\cdot b\cdot u(s)                     \\
+        y(t)                   & =C^T\cdot x(t)+d\cdot u(t)                              \\
+        Y(s)                   & =C^T\cdot X(s)+d\cdot u(s)                              \\
+        Y(s)                   & =\underbrace{(C^T(S\cdot I-A)^{-1}\cdot b+d)}_{F(s)\ allgemeiner Fall}\cdot u(s)
+    \end{aligned}
+\end{equation}
 \subsection{}
 \textbf{Wie ist die Zustandsstabilität eines Systems qualitativ definiert? Geben Sie zusätzlich ein mathematisches Kriterium an.}
 
