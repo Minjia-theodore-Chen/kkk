@@ -104,18 +104,45 @@ Ein LZI-System mit der rationalen Übertragungsfunktion ist übertragungsstabil,
 \textbf{Wie lässt sich aus der Zustandsraumdarstellung die Übertragungsfunktion eines Systems ermitteln? Geben Sie hierbei auch Ihre Herleitung an.}
 \begin{equation}
     \begin{aligned}
-        \dot{x}(t)             & =A\cdot x(t)+b\cdot u(t)\qquad Annahme x(0)=0           \\
-        sX(s)                  & =A\cdot X(s)+b\cdot u(s)                                \\
-        sX(s)-A\cdot X(s)      & =b\cdot u(s)                                            \\
-        (s\cdot I-A)\cdot X(s) & =b\cdot u(s)                                            \\
-        X(s)                   & =(S\cdot I-A)^{-1}\cdot b\cdot u(s)                     \\
-        y(t)                   & =C^T\cdot x(t)+d\cdot u(t)                              \\
-        Y(s)                   & =C^T\cdot X(s)+d\cdot u(s)                              \\
+        \dot{x}(t)             & =A\cdot x(t)+b\cdot u(t)\qquad Annahme x(0)=0                                    \\
+        sX(s)                  & =A\cdot X(s)+b\cdot u(s)                                                         \\
+        sX(s)-A\cdot X(s)      & =b\cdot u(s)                                                                     \\
+        (s\cdot I-A)\cdot X(s) & =b\cdot u(s)                                                                     \\
+        X(s)                   & =(S\cdot I-A)^{-1}\cdot b\cdot u(s)                                              \\
+        y(t)                   & =C^T\cdot x(t)+d\cdot u(t)                                                       \\
+        Y(s)                   & =C^T\cdot X(s)+d\cdot u(s)                                                       \\
         Y(s)                   & =\underbrace{(C^T(S\cdot I-A)^{-1}\cdot b+d)}_{F(s)\ allgemeiner Fall}\cdot u(s)
     \end{aligned}
 \end{equation}
 \subsection{}
 \textbf{Wie ist die Zustandsstabilität eines Systems qualitativ definiert? Geben Sie zusätzlich ein mathematisches Kriterium an.}
+Ein System ist zustandsstabil (oder asymptotisch stabil nach Ljapunow), wenn:
+\begin{itemize}
+    \item es in seiner Ruhelage bleibt, solange es nicht von außen angeregt wird und
+    \item es in seine Ruhelage zurückkehrt, wenn alle äußeren Wirkungen von ihm weggenommen werden
+\end{itemize}
+Das System, beschrieben durch die Zustandsgleichungen
+\begin{equation}
+    \begin{aligned}
+        \dot{\underline{x}}(t) & =\underline{A}\cdot\underline{x}(t)+\underline{b}\cdot\underline{u}(t)   \\
+        \underline{y}(t)       & =\underline{c}^T\cdot\underline{x}(t)+\underline{d}\cdot\underline{u}(t) \\
+    \end{aligned}
+\end{equation}
+ist genau dann zustandsstabil, wenn alle n Eigenwerte $\lambda_1,\cdots,\lambda_n$ der Matrix A links der imaginären Achse
+der komplexen s-Ebene liegen, also alle Realteile negativ sind.
 
 \subsection{}
 \textbf{Nennen Sie ein mathematisches Kriterium zum Prüfen der Steuerbarkeit.}
+Kalman-Kriterium zur Steuerbarkeit:
+Das System, beschrieben durch die Zustandsgleichungen
+\begin{equation}
+    \begin{aligned}
+        \dot{\underline{x}}(t) & =\underline{A}\cdot\underline{x}(t)+\underline{b}\cdot\underline{u}(t)   \\
+        \underline{y}(t)       & =\underline{c}^T\cdot\underline{x}(t)+\underline{d}\cdot\underline{u}(t) \\
+    \end{aligned}
+\end{equation}
+ist genau dann vollständig steuerbar, wenn seine$(n\times n)$ -Steuerbarkeitsmatrix
+\begin{equation}
+    \underline{Q}_S=\left(\underline{b}\ \underline{Ab}\ \underline{A^2b}\cdots\underline{A^{n-1}b}\right)
+\end{equation}
+regulär ist, d.h. $\detmat\left(\underline{Q}_S\right)\neq 0$ gilt.

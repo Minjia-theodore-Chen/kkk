@@ -1,1 +1,34 @@
+\setcounter{section}{0}
 \part{UML}
+\section{UML: Lichtsteuerung in einem Oberklasse Fahrzeug}
+Als Entwicklungsingenieur eines großen Automobilherstellers der Region sollen Sie eine Lichtsteuerung für ein neues Fahrzeugprojekt entwickeln. Sie entscheiden sich dafür, dieses mit Hilfe von UML-Statecharts zu spezifizieren. Zu steuern sind zwei Innenraumleuchten (vorn und hinten) sowie eine Schminkspiegelleuchte in der Sonnenblende auf dem Beifahrersitz. Das System reagiert auf das Öffnen/Schließen der Fahrzeugtüren (4-Türer) sowie den Funkschlüssel. Nach dem Schließen der Türen soll eine Nachleuchtzeit von 10 Sekunden eingehalten werden.
+
+Modellieren Sie das System in \underline{\textbf{einem}} \textbf{UML-Statechart}.
+
+(Bei dieser Aufgabe kommt es nicht auf Vollständigkeit an, sondern auf die saubere Modellierung der ausgewählten Aspekte.)
+
+\section{UML: Frontscheibenwischer}
+Als Entwicklungsingenieur eines großen Automobilherstellers sollen Sie eine Scheibenwischersteuerung für ein neues Fahrzeugprojekt entwickeln. Sie entscheiden sich dafür, dieses mit Hilfe von UML-Aktivitätsdiagrammen zu modellieren. Zur Vereinfachung der Aufgabe soll angenommen werden, dass das Fahrzeug \textbf{nur über einen Scheibenwischer für die Frontscheibe} verfügt. Das System reagiert auf einen Lenkstockschalter mit folgenden Schalterstellungen für den Scheibenwischer:
+\begin{itemize}
+    \item Aus
+    \item Wischen im Intervallmodus mit normaler Geschwindigkeit
+    \item Dauerndes Wischen mit normaler Geschwindigkeit
+    \item Schnelles Wischen
+\end{itemize}
+Zusätzlich verfügt das Fahrzeug über einen Zündungsschlüsselschalter mit den Positionen:
+\begin{itemize}
+    \item ZündungAn
+    \item ZündungAus
+\end{itemize}
+Bei ausgeschalteter Zündung soll der Scheibenwischer nicht wischen. Wird die Zündung allerdings während eines Wischvorgangs abgeschaltet, so soll der Scheibenwischer noch seinen Wischvorgang vollenden, bis er wieder seine Ruheposition erreicht hat.
+
+Es stehen folgende Aktivitäten zur Verfügung:
+\begin{itemize}
+    \item SchalterZuständeEinlesen
+    \item 5SekundenWarten (für Intervallwischen)
+    \item NormalWischen
+    \item SchnellWischen
+\end{itemize}
+Modellieren Sie das System mit \textbf{\underline{einem}} UML-\textbf{Aktivit\"atsdiagramm}.
+
+Bitte verwenden Sie kein UML-Zustandsdiagramm. 
