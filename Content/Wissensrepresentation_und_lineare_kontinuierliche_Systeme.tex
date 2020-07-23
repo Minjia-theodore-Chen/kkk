@@ -132,22 +132,22 @@
         \end{tabular}
     \end{minipage}
 \end{figure}
-\subsection{Beobachter}
-\subsubsection{}
+\section{Beobachter}
+\subsection{}
 \textbf{Wo liegen die Pole der Übertragungsmatrix eines Beobachters in Abhängigkeit von der Rückführungsmatrix L? Geben Sie eine Herleitung für Ihr Ergebnis an.}
 \begin{equation}
     \begin{aligned}
-        \dot{\hat{x}}               & =A\hat{x}+Bu+L(y-\hat{y})                          \\
-        \hat{y}                     & =c\hat{x}                                          \\
-        \dot{\hat{x}}               & =a\hat{x}+Bu+Ly-LC\hat{x}                          \\
-                                    & =\left(A-LC\right)\hat{x}+Bu+Ly                    \\
-        s\hat{X}                    & =\left(A-LC\right)\hat{X}+Bu+LY                    \\
-        \left(sI-A+LC\right)\hat{X} & =Bu+LY                                             \\
+        \dot{\hat{x}}               & =A\hat{x}+Bu+L(y-\hat{y})                                                                                               \\
+        \hat{y}                     & =c\hat{x}                                                                                                               \\
+        \dot{\hat{x}}               & =a\hat{x}+Bu+Ly-LC\hat{x}                                                                                               \\
+                                    & =\left(A-LC\right)\hat{x}+Bu+Ly                                                                                         \\
+        s\hat{X}                    & =\left(A-LC\right)\hat{X}+Bu+LY                                                                                         \\
+        \left(sI-A+LC\right)\hat{X} & =Bu+LY                                                                                                                  \\
         \hat{X}                     & =\textcolor{red}{\underbrace{\left(sI-A+LC\right)^{-1}}_{Polverteilung\ \ddot{U}bertragungsfunktion}}\left(Bu+LY\right) \\
     \end{aligned}
 \end{equation}
 
-\subsubsection{}
+\subsection{}
 \textbf{Für folgendes System soll ein Beobachter zur Zustandsrekonstruktion so entworfen werden, dass die Beobachterfehlerdynamik einen doppelten Pol bei $s=-2$ aufweist.}
 
 \begin{equation}
@@ -162,9 +162,7 @@
         y=\left[1\qquad 0\right]x
     \end{array}
 \end{equation}
-\paragraph{1.Überprüfen Sie das System auf die Beobachtbarkeit.}
-
-\
+\subsubsection{}\textbf{Überprüfen Sie das System auf die Beobachtbarkeit.}
 
 Kriterium:
 \begin{equation}
@@ -179,9 +177,7 @@ Kriterium:
             2 & 1 \\
         \end{array}\right]\rightarrow\detmat\ Q_B=1\rightarrow beobachtbar
 \end{equation}
-\paragraph{2. Bestimmen Sie die Beobachterkoeffizienten $l_1$ und $l_2$.}
-
-\
+\subsubsection{}\textbf{Bestimmen Sie die Beobachterkoeffizienten $l_1$ und $l_2$.}
 
 \begin{equation}
     \detmat(sI-A+LC)=\left|\left[\begin{array}{cc}
