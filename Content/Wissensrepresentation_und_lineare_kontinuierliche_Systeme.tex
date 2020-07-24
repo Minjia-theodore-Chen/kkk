@@ -132,6 +132,34 @@
         \end{tabular}
     \end{minipage}
 \end{figure}
+
+\subsection{}
+\subsubsection{}
+\textbf{Wie ist der Schwimmwinkel im Fahrzeug definiert?}
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.4\linewidth}
+        \centering
+        \includegraphics[width=\linewidth]{Graphics/Schwimmwinkel.png}
+    \end{minipage}
+    \begin{minipage}{.55\linewidth}
+        Der Schwimmwinkel ist der Winkel β zwischen der Bewegungsrichtung des Fahrzeugs im Schwerpunkt und der Fahrzeuglängsachse.
+    \end{minipage}
+\end{figure}
+\subsubsection{}
+\textbf{Welche Bedeutung hat der Schwimmwinkel bzgl. der Dynamik des Fahrzeugs?}
+\begin{equation}
+    \begin{aligned}
+        a_{y,trans} & =\dfrac{\dif v_y}{\dif t}                                                               \\
+                    & =v\dot{\beta}\underbrace{\cos\beta}_1+\underbrace{\dot{v}\sin\beta}_{0,\ da\ \dot{v}=0} \\
+                    & =b\dot{\beta}                                                                           \\                                                                           \\
+        a_{y,rot}   & =\dfrac{v^2}{R}\quad mit\ v=\dot{\Psi}R                                                 \\
+                    & =\dfrac{v\cdot\overbrace{\dot{\Psi}R}^v}{R}=v\cdot\dot{\Psi}                            \\
+        Superposition\quad a_y&=a_{y,trans}+a_{y,rot}\\
+        &=v\cdot\left(\dot{\beta}+\dot{\Psi}\right)
+    \end{aligned}
+\end{equation}
+
 \section{Beobachter}
 \subsection{}
 \textbf{Wo liegen die Pole der Übertragungsmatrix eines Beobachters in Abhängigkeit von der Rückführungsmatrix L? Geben Sie eine Herleitung für Ihr Ergebnis an.}

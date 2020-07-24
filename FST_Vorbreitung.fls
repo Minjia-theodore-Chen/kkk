@@ -320,6 +320,10 @@ INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/beobrachter
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Linearen_Einspurmodell.png
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Linearen_Einspurmodell.png
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Linearen_Einspurmodell.png
+INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Schwimmwinkel.png
+INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Schwimmwinkel.png
+INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Schwimmwinkel.png
+INPUT c:/texlive/2019/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong03.tfm
 INPUT c:/texlive/2019/texmf-dist/fonts/tfm/zhmetrics/unisong/unisong22.tfm
 OUTPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/UML.aux
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/UML.tex
@@ -330,6 +334,9 @@ INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Architekture
 OUTPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Systematischer_Entwurf_von_Fahrerassistenzsystemen.aux
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Systematischer_Entwurf_von_Fahrerassistenzsystemen.tex
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Systematischer_Entwurf_von_Fahrerassistenzsystemen.tex
+INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/systematischer_Entwurf.png
+INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/systematischer_Entwurf.png
+INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/systematischer_Entwurf.png
 OUTPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Entwurfsprozesse_und_Anforderungsanalyse.aux
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Entwurfsprozesse_und_Anforderungsanalyse.tex
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Entwurfsprozesse_und_Anforderungsanalyse.tex
@@ -344,6 +351,9 @@ INPUT c:/texlive/2019/texmf-dist/fonts/tfm/zhmetrics/unihei/unihei20.tfm
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/V_Modell_97.png
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/V_Modell_97.png
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/V_Modell_97.png
+INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Anforderung_Aufbau.jpg
+INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Anforderung_Aufbau.jpg
+INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Anforderung_Aufbau.jpg
 OUTPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Testen.aux
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Testen.tex
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Testen.tex
@@ -372,6 +382,7 @@ INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Funktionale_
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/FST_Vorbreitung.out
 INPUT d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/FST_Vorbreitung.out
 INPUT c:/Windows/Fonts/simhei.ttf
+INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/Windows/Fonts/simsun.ttc
 INPUT c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
