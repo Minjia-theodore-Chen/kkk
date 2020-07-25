@@ -1,5 +1,112 @@
-\setcounter{section}{0}
 \part{Wissensrepräsentation und lineare kontinuierliche Systeme}
+\section{Wissen}
+\subsection{Modellbildung}
+\subsubsection{}
+\textbf{Welche zwei Eebenen der Modellbildung sind Ihnen aus der Vorlesung bekannt? Nennen Sie jeweils ein Beispiel für ein solche Modell.}
+
+Diskrete ereignisorientierte Modelle und Räumlich-Zeitliche Modelle:
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=.4\linewidth]{Graphics/Modellbildung_Ebenen.png}
+    \caption{Unterschiedliche Beschreibungsebenen}
+\end{figure}
+\begin{figure}
+    \centering
+    \includegraphics[width=.6\linewidth]{Graphics/Beispiel_Modell.png}
+    \caption{Beispiele}
+\end{figure}
+
+\subsection{Querführungsmodell}
+\subsubsection{}
+\textbf{Sie haben in der Vorlesung das Querführungsmodell 5. Ordnung kennengelernt. Wie unterscheidet sich dieses qualitativ vom Einspurmodell?}
+\begin{itemize}
+    \item Einspurmodell beschreibt Fahrzeugbewegung im freien Raum
+    \item Reglung von Fahrzeugen im Fahrstreifen für Fahrfunktionen relevant
+    \item Querführungsmodell integriert Fahrbahnrelation in das Modell
+\end{itemize}
+
+\subsubsection{}
+\textbf{Was versteht man qualitativ unter dem Begriff der Steuerbarkeit?(hier ist kein mathematisches Kriterium gefragt)}
+
+Sollte es Komponenten des Zustandsvektor $x(t)$ des Systems, die nicht vom Eingangsvektor $u(t)$ beeinflusst werden geben, dann wäre es naheliegend, das system als nicht steuerbar zu bezeichnen.
+
+Ein lineares System ist vollständig zustandssteuerbar, wenn es für jeden Anfangszustand x(t0) eine Steuerfunktion u(t) gibt, die das System innerhalb einer beliebigen Zeitspanne t0 < t < t1 in den Endzustand x(t1)=0 überführt.
+
+\subsubsection{}
+\textbf{Was versteht man qualitativ unter dem Begriff der Beobachtbarkeit?(hier ist kein mathematisches Kriterium gefragt)}
+
+Sollte es Komponenten des Zustandsvektors $x(t)$ des Systems, die keine Einfluss auf den Ausgangsvektor $y(t)$ ausüben geben, dann kann aus dem Verhalten des Ausgangsvektors $y(t)$ nicht auf den Zustandsvektor $x(t)$ geschlossen werden, und es liegt nahe, das betreffende System als nicht beobachtbar zu bezeichnen.
+
+Ein lineares System ist vollständig beobachtbar, wenn man bei bekannter äußerer Beeinflussung Bu(t) und bekannten Matrizen A und C aus dem Ausgangsvektor y(t) über ein endliches Zeitintervall t0 < t < t1 den Anfangszustand x(t0) eindeutig bestimmen kann.
+
+\subsection{Beobachter}
+\subsubsection{}
+\textbf{Was ist die Grundidee, die hinter einem Beobachter steckt? (hier ist kein mathematisches Kriterium gefragt)}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.45\linewidth}
+        \begin{itemize}
+            \item Interne Nachbildung der Regelstrecke
+            \item Vorsicht: Anfangsvektor $x(t_0)$ nicht bekannt!
+        \end{itemize}
+    \end{minipage}
+    \begin{minipage}{.5\linewidth}
+        \centering
+        \includegraphics[width=.99\linewidth]{Graphics/Beobachter_Grundidee.png}
+    \end{minipage}
+\end{figure}
+
+\subsection{Ereignisdiskrete Systeme}
+\subsubsection{}
+\textbf{Wodurch zeichnen sich ereignisdiskrete Systeme aus?}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.45\linewidth}
+        \begin{itemize}
+            \item X: Menge von Eingangsvariablen
+            \item Y: Menge der Ausgangsvariablen
+            \item Z: Zustandsvariablen/Zustände
+            \item $\Phi()$: Übergangsfunktion bestimmt den Zustandsübergang aufgrund der Eingabe oder des Zeitverlaufs
+            \item $\Omega()$: Ausgabefunktion bestimmt die Ausgaben aufgrund der Zustandsübergänge
+        \end{itemize}
+    \end{minipage}
+    \begin{minipage}{.5\linewidth}
+        \centering
+        \includegraphics[width=.99\linewidth]{Graphics/Ereignisdiskrete_Systeme.png}
+    \end{minipage}
+\end{figure}
+
+\subsubsection{}
+\textbf{In der Vorlesung haben Sie Automanten als Form der Modellierung ereignisdiskreter Systeme kennengelernt. Was zeichnet einen Moore-Automaten aus? Was einen Mealy-Automaten?}
+
+\textbf{Geben Sie ein Beispiel f"ur einen Moore- und einen Mealy-Automaten an.}
+
+\begin{figure}[H]
+    \centering
+    \begin{minipage}{.48\linewidth}
+        \centering
+        \includegraphics[width=.95\linewidth]{Graphics/Moore_automaten_1.png}
+        \caption{Moore-Automaten}
+    \end{minipage}
+    \begin{minipage}{.48\linewidth}
+        \centering
+        \includegraphics[width=.95\linewidth]{Graphics/Moore_automaten_2.png}
+        \caption{Beispiel}
+    \end{minipage}
+    \begin{minipage}{.48\linewidth}
+        \centering
+        \includegraphics[width=.95\linewidth]{Graphics/Mealy_automaten_1.png}
+        \caption{Mealy-Automaten}
+    \end{minipage}
+    \begin{minipage}{.48\linewidth}
+        \centering
+        \includegraphics[width=.95\linewidth]{Graphics/Mealy_automaten_2.png}
+        \caption{Beispiel}
+    \end{minipage}
+\end{figure}
+
 \section{Lineare kontinuierliche Systeme}
 \subsection{}
 \textbf{Welche Annahmen liegen dem linearen Einspurmodell zugrunde? Nennen Sie mindestens 5 Stück.}
@@ -150,13 +257,13 @@
 \textbf{Welche Bedeutung hat der Schwimmwinkel bzgl. der Dynamik des Fahrzeugs?}
 \begin{equation}
     \begin{aligned}
-        a_{y,trans} & =\dfrac{\dif v_y}{\dif t}                                                               \\
-                    & =v\dot{\beta}\underbrace{\cos\beta}_1+\underbrace{\dot{v}\sin\beta}_{0,\ da\ \dot{v}=0} \\
-                    & =b\dot{\beta}                                                                           \\                                                                           \\
-        a_{y,rot}   & =\dfrac{v^2}{R}\quad mit\ v=\dot{\Psi}R                                                 \\
-                    & =\dfrac{v\cdot\overbrace{\dot{\Psi}R}^v}{R}=v\cdot\dot{\Psi}                            \\
-        Superposition\quad a_y&=a_{y,trans}+a_{y,rot}\\
-        &=v\cdot\left(\dot{\beta}+\dot{\Psi}\right)
+        a_{y,trans}            & =\dfrac{\dif v_y}{\dif t}                                                               \\
+                               & =v\dot{\beta}\underbrace{\cos\beta}_1+\underbrace{\dot{v}\sin\beta}_{0,\ da\ \dot{v}=0} \\
+                               & =b\dot{\beta}                                                                           \\                                                                           \\
+        a_{y,rot}              & =\dfrac{v^2}{R}\quad mit\ v=\dot{\Psi}R                                                 \\
+                               & =\dfrac{v\cdot\overbrace{\dot{\Psi}R}^v}{R}=v\cdot\dot{\Psi}                            \\
+        Superposition\quad a_y & =a_{y,trans}+a_{y,rot}                                                                  \\
+                               & =v\cdot\left(\dot{\beta}+\dot{\Psi}\right)
     \end{aligned}
 \end{equation}
 

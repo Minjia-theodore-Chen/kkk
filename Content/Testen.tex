@@ -1,2 +1,75 @@
-\setcounter{section}{0}
 \part{Testen}
+\section{Fachtermini}
+\textbf{Für das deutsche Wort "Fehler" gibt es im Bereich des Testens verschiedene Fachtermini für unterschiedliche Situationen. Geben Sie für jede der Lücken einen deutschen \underline{und} englischen Fachterminius an.}
+\begin{enumerate}
+    \item \textbf{Der Programmierer begeht einen} \underline{Fehlhandlung (error)} ...
+    \item \textbf{... und hinterlässt einen} \underline{Fehlerzustand (bug)} \textbf{im Programmcode.}
+    \item \textbf{Wird dieser ausgeführt, tritt ein} \underline{Fehlerzustand (fault)} \textbf{im Programmzustand auf,}
+    \item \textbf{der sich als eine} \underline{Fehlerwirkung (failure)} \textbf{nach au\ss en manifestiert.}
+\end{enumerate}
+
+\section{}
+\textbf{Was lässt sich durch Testen nachweisen, was hingegen nicht?}
+
+\section{Ziel}
+\textbf{Was sind die Ziele des Testens?}
+
+\section{Testteam}
+\textbf{Welche Rollen im Testteam unterscheidet man? Welche Aufgaben sind mit der jeweiligen Rolle verbundenen?}
+
+\section{Testarten}
+\textbf{Welche vier Testarten bzgl. des V-Modells von '97 haben Sie in der Vorlesung kennengelernt? Was zeichnet diese Testarten jeweils aus?}
+\begin{enumerate}
+    \item Modultest\begin{itemize}
+              \item Isolierte Überprüfung der einzelnen Module
+              \item Prüfung einzelner Methoden und Klassen
+              \item Prüfung der fehlerfreien Funktion eines Models bezogen auf die Modulspezifikation
+          \end{itemize}
+    \item Integrationstest\begin{itemize}
+              \item Testen mehrer Module im Verbund oder Subsysteme
+              \item Schrittweises Zusammenfügen zum Gesamtsystem
+              \item Schwerpunkt liegt auf Prüfung des korrekten Zusammenwirkens der Module
+          \end{itemize}
+    \item Systemtest\begin{itemize}
+              \item Testen des vollständigen Systems
+              \item Überprüfung der Funktionalität und Leistung gegen die Spezifikation(beim Hersteller/Entwickler)
+          \end{itemize}
+    \item Abnahmetest\begin{itemize}
+        \item Nicht: Fehler hinsichtlich der Spezifikation finden
+        \item Sondern: prüfen, ob das System \textbf{aus Kundensicht} die vereinbarten Leistungsmerkmale aufweist
+    \end{itemize}
+    $\rightarrow$ Validierung
+\end{enumerate}
+\section{Verifikation und Validierung}
+\textbf{Worin besteht der Unterschied zwischen der Verifikation und der Validierung?}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{p{.45\linewidth}p{.45\linewidth}}
+        \toprule
+        Verifikation                                                                                          & Validierung                                                                                                                                      \\
+        \midrule
+        Verifikation stellt den Prozess dar, der beurteilt, ob ein System richtig entwickelt wurde            & Validierung beschreibt den Prozess, der überprüft, ob das richtige System entwickelt wurde                                                       \\
+        Die Verifikation ist eine Prüfung mit objektiven Mitteln, ob spezifizierte Anforderungen erfüllt sind & Die Validierung ist eine Prüfung mit objektiven Mitteln, ob ein Produkt für eine bestimmte Anwendung oder einen bestimmten Gebrauch geeignet ist \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\section{White- und Black-Box-Testverfahren}
+\textbf{Nennen Sie jeweils drei Eigenschaften von White-Box- und Black-Box-Testverfahren.}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{p{.45\linewidth}p{.45\linewidth}}
+        \toprule
+        Black-Box-Tests                                          & White-Box-Tests                                      \\
+        \midrule
+        Testfälle aus Spezifikation                              & Testfälle ausgehend von Struktur des Testgegenstands \\
+        Innere Struktur bei Ermittlung der Testfälle unbekannt   & Testfälle auch vom Entwickler                        \\
+        Testendekriterienanhand der spezifizierten Anforderungen & Testendekriterienanhand des Codes                    \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+
+
+
+
