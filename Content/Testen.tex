@@ -11,11 +11,27 @@
 \section{}
 \textbf{Was lässt sich durch Testen nachweisen, was hingegen nicht?}
 
+Testen zeigt nur die Anwesenheit von Fehlern, aber nie ihre Abwesenheit.
+
+"Progran testing can be used to show the presence of bugs, but never to show their absence."(E. Dijkstra)
 \section{Ziel}
 \textbf{Was sind die Ziele des Testens?}
+\begin{itemize}
+    \item Überprüfung und \textbf{Steigerung der Qualität}\begin{itemize}
+              \item Fehler aufdecken
+              \item Gefundene \textbf{Fehler korrigieren}
+          \end{itemize}
+    \item Minimierung der \textbf{Gesamtkosten} durch Fehlerfindung
+\end{itemize}
 
 \section{Testteam}
 \textbf{Welche Rollen im Testteam unterscheidet man? Welche Aufgaben sind mit der jeweiligen Rolle verbundenen?}
+\begin{itemize}
+    \item Testmangager: Verantwortlich für Ablauf des Testprozesses, Testplanung
+    \item Testingenieur: Umsetzung der Teststrategie, Leitung der Ausführung von Testfällen
+    \item Testentwickler: Konkretisiert Testfälle
+    \item Tester: Operatives Ausführen der Testfälle
+\end{itemize}
 
 \section{Testarten}
 \textbf{Welche vier Testarten bzgl. des V-Modells von '97 haben Sie in der Vorlesung kennengelernt? Was zeichnet diese Testarten jeweils aus?}
@@ -35,10 +51,10 @@
               \item Überprüfung der Funktionalität und Leistung gegen die Spezifikation(beim Hersteller/Entwickler)
           \end{itemize}
     \item Abnahmetest\begin{itemize}
-        \item Nicht: Fehler hinsichtlich der Spezifikation finden
-        \item Sondern: prüfen, ob das System \textbf{aus Kundensicht} die vereinbarten Leistungsmerkmale aufweist
-    \end{itemize}
-    $\rightarrow$ Validierung
+              \item Nicht: Fehler hinsichtlich der Spezifikation finden
+              \item Sondern: prüfen, ob das System \textbf{aus Kundensicht} die vereinbarten Leistungsmerkmale aufweist
+          \end{itemize}
+          $\rightarrow$ Validierung
 \end{enumerate}
 \section{Verifikation und Validierung}
 \textbf{Worin besteht der Unterschied zwischen der Verifikation und der Validierung?}
