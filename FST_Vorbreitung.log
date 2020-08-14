@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.1)  26 JUL 2020 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.1)  15 AUG 2020 00:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -8,8 +8,8 @@ entering extended mode
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-02-25> (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/assisting/header.tex (c:/texlive/2019/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-(c:/texlive/2019/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+(c:/texlive/2019/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
 \c@section=\count168
@@ -716,12 +716,12 @@ LaTeX Info: Redefining \selectfont on input line 3.
 * \topmargin=-85.36823pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=134.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=144.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -795,173 +795,173 @@ LaTeX Font Info:    Trying to load font information for C70+rm on input line 63.
 File: c70rm.fd 2019/05/29 v2.4.16 Chinese font definition (CTEX)
 )
 Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (quanjiao) on input line 63.
- [3] [4])
+ [3])
 \tf@toc=\write4
 \openout4 = `FST_Vorbreitung.toc'.
 
- [5]
+ [4]
 \openout2 = `Content/Klausurthemen.aux'.
 
- (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Klausurthemen.tex [6
+ (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Klausurthemen.tex [5
 
-] [7]) [8]
+] [6]) [7]
 \openout2 = `Content/Fahrzeugsystemtechnik_allgemain.aux'.
 
- (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Fahrzeugsystemtechnik_allgemain.tex [9
+ (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Fahrzeugsystemtechnik_allgemain.tex [8
 
 
-] [10] [11] [12]) [13]
+] [9]) [10]
 \openout2 = `Content/Wissensrepresentation_und_lineare_kontinuierliche_Systeme.aux'.
 
  (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Wissensrepresentation_und_lineare_kontinuierliche_Systeme.tex
-<Graphics/Modellbildung_Ebenen.png, id=564, 841.64438pt x 542.77782pt>
+<Graphics/Modellbildung_Ebenen.png, id=552, 841.64438pt x 542.77782pt>
 File: Graphics/Modellbildung_Ebenen.png Graphic file (type png)
 <use Graphics/Modellbildung_Ebenen.png>
 Package pdftex.def Info: Graphics/Modellbildung_Ebenen.png  used on input line 10.
 (pdftex.def)             Requested size: 304.21014pt x 196.18666pt.
-<Graphics/Beispiel_Modell.png, id=566, 1314.41063pt x 520.94624pt>
+<Graphics/Beispiel_Modell.png, id=554, 1314.41063pt x 520.94624pt>
 File: Graphics/Beispiel_Modell.png Graphic file (type png)
 <use Graphics/Beispiel_Modell.png>
 Package pdftex.def Info: Graphics/Beispiel_Modell.png  used on input line 15.
 (pdftex.def)             Requested size: 456.32683pt x 180.85541pt.
- [14
+ [11
 
 
- <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Modellbildung_Ebenen.png>] [15 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Beispiel_Modell.png>]
-<Graphics/Beobachter_Grundidee.png, id=579, 887.56593pt x 545.78906pt>
+ <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Modellbildung_Ebenen.png>]
+<Graphics/Beobachter_Grundidee.png, id=561, 887.56593pt x 545.78906pt>
 File: Graphics/Beobachter_Grundidee.png Graphic file (type png)
 <use Graphics/Beobachter_Grundidee.png>
 Package pdftex.def Info: Graphics/Beobachter_Grundidee.png  used on input line 56.
 (pdftex.def)             Requested size: 376.4679pt x 231.49507pt.
-<Graphics/Ereignisdiskrete_Systeme.png, id=580, 498.36188pt x 270.25969pt>
+ [12 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Beispiel_Modell.png>]
+<Graphics/Ereignisdiskrete_Systeme.png, id=568, 498.36188pt x 270.25969pt>
 File: Graphics/Ereignisdiskrete_Systeme.png Graphic file (type png)
 <use Graphics/Ereignisdiskrete_Systeme.png>
 Package pdftex.def Info: Graphics/Ereignisdiskrete_Systeme.png  used on input line 77.
 (pdftex.def)             Requested size: 376.4679pt x 204.16234pt.
- [16 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Beobachter_Grundidee.png>]
-<Graphics/Moore_automaten_1.png, id=587, 435.87843pt x 173.14688pt>
+ [13 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Beobachter_Grundidee.png>]
+<Graphics/Moore_automaten_1.png, id=576, 435.87843pt x 173.14688pt>
 File: Graphics/Moore_automaten_1.png Graphic file (type png)
 <use Graphics/Moore_automaten_1.png>
 Package pdftex.def Info: Graphics/Moore_automaten_1.png  used on input line 90.
 (pdftex.def)             Requested size: 346.80066pt x 137.76207pt.
-<Graphics/Moore_automaten_2.png, id=588, 537.50812pt x 197.23688pt>
+<Graphics/Moore_automaten_2.png, id=577, 537.50812pt x 197.23688pt>
 File: Graphics/Moore_automaten_2.png Graphic file (type png)
 <use Graphics/Moore_automaten_2.png>
 Package pdftex.def Info: Graphics/Moore_automaten_2.png  used on input line 95.
 (pdftex.def)             Requested size: 346.80066pt x 127.25742pt.
-<Graphics/Mealy_automaten_1.png, id=589, 391.4625pt x 192.72pt>
+<Graphics/Mealy_automaten_1.png, id=578, 391.4625pt x 192.72pt>
 File: Graphics/Mealy_automaten_1.png Graphic file (type png)
 <use Graphics/Mealy_automaten_1.png>
 Package pdftex.def Info: Graphics/Mealy_automaten_1.png  used on input line 100.
 (pdftex.def)             Requested size: 346.80066pt x 170.74097pt.
-<Graphics/Mealy_automaten_2.png, id=590, 409.53pt x 240.14719pt>
+<Graphics/Mealy_automaten_2.png, id=579, 409.53pt x 240.14719pt>
 File: Graphics/Mealy_automaten_2.png Graphic file (type png)
 <use Graphics/Mealy_automaten_2.png>
 Package pdftex.def Info: Graphics/Mealy_automaten_2.png  used on input line 105.
 (pdftex.def)             Requested size: 346.80066pt x 203.37486pt.
- [17 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Ereignisdiskrete_Systeme.png>] [18 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Moore_automaten_1.png> <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Moore_automaten_2.png> <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/mealy_automaten_1.png> <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/mealy_automaten_2.png>]
-<Graphics/beobrachter_blockbild.png, id=607, 858.95906pt x 555.57562pt>
+ [14 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Ereignisdiskrete_Systeme.png>] [15 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Moore_automaten_1.png> <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Moore_automaten_2.png> <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/mealy_automaten_1.png> <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/mealy_automaten_2.png>]
+<Graphics/beobrachter_blockbild.png, id=596, 858.95906pt x 555.57562pt>
 File: Graphics/beobrachter_blockbild.png Graphic file (type png)
 <use Graphics/beobrachter_blockbild.png>
 Package pdftex.def Info: Graphics/beobrachter_blockbild.png  used on input line 130.
 (pdftex.def)             Requested size: 380.2685pt x 245.963pt.
- [19]
-<Graphics/Linearen_Einspurmodell.png, id=613, 580.41844pt x 478.03593pt>
+ [16 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/beobrachter_blockbild.png>]
+<Graphics/Linearen_Einspurmodell.png, id=603, 580.41844pt x 478.03593pt>
 File: Graphics/Linearen_Einspurmodell.png Graphic file (type png)
 <use Graphics/Linearen_Einspurmodell.png>
 Package pdftex.def Info: Graphics/Linearen_Einspurmodell.png  used on input line 217.
 (pdftex.def)             Requested size: 182.53305pt x 150.3341pt.
- [20 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/beobrachter_blockbild.png>]
-<Graphics/Schwimmwinkel.png, id=622, 564.6696pt x 357.9774pt>
+<Graphics/Schwimmwinkel.png, id=604, 564.6696pt x 357.9774pt>
 File: Graphics/Schwimmwinkel.png Graphic file (type png)
 <use Graphics/Schwimmwinkel.png>
 Package pdftex.def Info: Graphics/Schwimmwinkel.png  used on input line 250.
 (pdftex.def)             Requested size: 304.21014pt x 192.857pt.
- [21 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Linearen_Einspurmodell.png> <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Schwimmwinkel.png>] [22] [23]) [24]
+ [17 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Linearen_Einspurmodell.png>] [18 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Schwimmwinkel.png>] [19]) [20]
 \openout2 = `Content/UML.aux'.
 
- (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/UML.tex [25
+ (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/UML.tex [21
 
 
-]) [26]
+]) [22]
 \openout2 = `Content/Architekturen.aux'.
 
  (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Architekturen.tex
-<Graphics/hierarchie_mehrebenensystem.png, id=663, 569.87906pt x 562.35094pt>
+<Graphics/hierarchie_mehrebenensystem.png, id=647, 569.87906pt x 562.35094pt>
 File: Graphics/hierarchie_mehrebenensystem.png Graphic file (type png)
 <use Graphics/hierarchie_mehrebenensystem.png>
 Package pdftex.def Info: Graphics/hierarchie_mehrebenensystem.png  used on input line 22.
 (pdftex.def)             Requested size: 228.1634pt x 225.14232pt.
- [27
+ [23
 
 
 ]
-<Graphics/subsumptionsarchitektur.png, id=668, 586.44093pt x 356.0803pt>
+<Graphics/subsumptionsarchitektur.png, id=652, 586.44093pt x 356.0803pt>
 File: Graphics/subsumptionsarchitektur.png Graphic file (type png)
 <use Graphics/subsumptionsarchitektur.png>
 Package pdftex.def Info: Graphics/subsumptionsarchitektur.png  used on input line 33.
 (pdftex.def)             Requested size: 228.1634pt x 138.53389pt.
- [28 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/hierarchie_mehrebenensystem.png> <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/subsumptionsarchitektur.png>]
-<Graphics/Rasmussens_Drei_Ebenen_Medell.png, id=677, 702.37407pt x 383.93437pt>
+ [24 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/hierarchie_mehrebenensystem.png> <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/subsumptionsarchitektur.png>]
+<Graphics/Rasmussens_Drei_Ebenen_Medell.png, id=661, 702.37407pt x 383.93437pt>
 File: Graphics/Rasmussens_Drei_Ebenen_Medell.png Graphic file (type png)
 <use Graphics/Rasmussens_Drei_Ebenen_Medell.png>
 Package pdftex.def Info: Graphics/Rasmussens_Drei_Ebenen_Medell.png  used on input line 46.
 (pdftex.def)             Requested size: 456.32683pt x 249.44893pt.
-) [29 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Rasmussens_Drei_Ebenen_Medell.png>]
+) [25 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Rasmussens_Drei_Ebenen_Medell.png>]
 \openout2 = `Content/Systematischer_Entwurf_von_Fahrerassistenzsystemen.aux'.
 
  (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Systematischer_Entwurf_von_Fahrerassistenzsystemen.tex
-<Graphics/systematischer_Entwurf.png, id=684, 614.295pt x 289.08pt>
+<Graphics/systematischer_Entwurf.png, id=669, 614.295pt x 289.08pt>
 File: Graphics/systematischer_Entwurf.png Graphic file (type png)
 <use Graphics/systematischer_Entwurf.png>
 Package pdftex.def Info: Graphics/systematischer_Entwurf.png  used on input line 6.
 (pdftex.def)             Requested size: 608.4319pt x 286.34004pt.
- [30
+ [26
 
 
- <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/systematischer_Entwurf.png>]) [31]
+ <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/systematischer_Entwurf.png>]) [27]
 \openout2 = `Content/Entwurfsprozesse_und_Anforderungsanalyse.aux'.
 
  (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Entwurfsprozesse_und_Anforderungsanalyse.tex
-<Graphics/Wasserfall-Modell.png, id=696, 417.05812pt x 153.57375pt>
+<Graphics/Wasserfall-Modell.png, id=680, 417.05812pt x 153.57375pt>
 File: Graphics/Wasserfall-Modell.png Graphic file (type png)
 <use Graphics/Wasserfall-Modell.png>
 Package pdftex.def Info: Graphics/Wasserfall-Modell.png  used on input line 16.
 (pdftex.def)             Requested size: 456.32683pt x 168.0435pt.
- [32
+ [28
 
 
- <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Wasserfall-Modell.png>] [33]
-<Graphics/Evolutional_Model.png, id=713, 417.05812pt x 131.74219pt>
+ <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Wasserfall-Modell.png>]
+<Graphics/Evolutional_Model.png, id=689, 417.05812pt x 131.74219pt>
 File: Graphics/Evolutional_Model.png Graphic file (type png)
 <use Graphics/Evolutional_Model.png>
 Package pdftex.def Info: Graphics/Evolutional_Model.png  used on input line 65.
 (pdftex.def)             Requested size: 380.2685pt x 120.12679pt.
- [34 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Evolutional_Model.png>]
-<Graphics/V_Modell_97.png, id=720, 417.05812pt x 231.11343pt>
+ [29]
+<Graphics/V_Modell_97.png, id=698, 417.05812pt x 231.11343pt>
 File: Graphics/V_Modell_97.png Graphic file (type png)
 <use Graphics/V_Modell_97.png>
 Package pdftex.def Info: Graphics/V_Modell_97.png  used on input line 84.
 (pdftex.def)             Requested size: 456.32683pt x 252.889pt.
- [35 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/V_Modell_97.png>] [36] [37] [38] [39]
-<Graphics/Anforderung_Aufbau.jpg, id=753, 1168.365pt x 477.28313pt>
+ [30 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Evolutional_Model.png>] [31 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/V_Modell_97.png>] [32] [33] [34]
+<Graphics/Anforderung_Aufbau.jpg, id=733, 1168.365pt x 477.28313pt>
 File: Graphics/Anforderung_Aufbau.jpg Graphic file (type jpg)
 <use Graphics/Anforderung_Aufbau.jpg>
 Package pdftex.def Info: Graphics/Anforderung_Aufbau.jpg  used on input line 249.
 (pdftex.def)             Requested size: 608.4319pt x 248.55278pt.
- [40]) [41 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Anforderung_Aufbau.jpg>]
+) [35] [36 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Anforderung_Aufbau.jpg>]
 \openout2 = `Content/Testen.aux'.
 
- (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Testen.tex [42
+ (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Testen.tex [37
 
 
-] [43]) [44]
+] [38]) [39]
 \openout2 = `Content/Funktionale_Sicherheit.aux'.
 
- (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Funktionale_Sicherheit.tex [45
+ (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Funktionale_Sicherheit.tex [40
 
 
-]) [46] [47]
+]) [41]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
  (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/FST_Vorbreitung.aux (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Klausurthemen.aux) (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Fahrzeugsystemtechnik_allgemain.aux) (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Wissensrepresentation_und_lineare_kontinuierliche_Systeme.aux) (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/UML.aux) (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Architekturen.aux) (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Systematischer_Entwurf_von_Fahrerassistenzsystemen.aux) (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Entwurfsprozesse_und_Anforderungsanalyse.aux) (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Testen.aux) (d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Content/Funktionale_Sicherheit.aux))
@@ -972,21 +972,21 @@ Package rerunfilecheck Info: File `FST_Vorbreitung.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 23.
  ) 
 Here is how much of TeX's memory you used:
- 18994 strings out of 480994
- 301529 string characters out of 5916033
- 746867 words of memory out of 5000000
- 33815 multiletter control sequences out of 15000+600000
- 539636 words of font info for 50 fonts, out of 8000000 for 9000
+ 18973 strings out of 480994
+ 301320 string characters out of 5916033
+ 747846 words of memory out of 5000000
+ 33807 multiletter control sequences out of 15000+600000
+ 536977 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,21n,51p,1070b,513s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,21n,51p,1070b,548s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong22: wrong mapping: character 18 --> 0x2212 --> .notdef
-><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Windows/Fonts/simsun.ttc><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/FST_Vorbreitung.pdf (47 pages, 1081232 bytes).
+><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Windows/Fonts/simsun.ttc><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/FST_Vorbreitung.pdf (41 pages, 1101422 bytes).
 PDF statistics:
- 902 PDF objects out of 1000 (max. 8388607)
- 790 compressed objects within 8 object streams
- 208 named destinations out of 1000 (max. 500000)
+ 880 PDF objects out of 1000 (max. 8388607)
+ 773 compressed objects within 8 object streams
+ 202 named destinations out of 1000 (max. 500000)
  880 words of extra memory for PDF output out of 10000 (max. 10000000)
 
