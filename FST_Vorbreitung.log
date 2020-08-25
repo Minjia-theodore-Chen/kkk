@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.1)  15 AUG 2020 00:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.1)  24 AUG 2020 20:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -827,13 +827,12 @@ Package pdftex.def Info: Graphics/Beispiel_Modell.png  used on input line 15.
  [11
 
 
- <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Modellbildung_Ebenen.png>]
-<Graphics/Beobachter_Grundidee.png, id=561, 887.56593pt x 545.78906pt>
+ <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Modellbildung_Ebenen.png>] [12 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Beispiel_Modell.png>]
+<Graphics/Beobachter_Grundidee.png, id=567, 887.56593pt x 545.78906pt>
 File: Graphics/Beobachter_Grundidee.png Graphic file (type png)
 <use Graphics/Beobachter_Grundidee.png>
 Package pdftex.def Info: Graphics/Beobachter_Grundidee.png  used on input line 56.
 (pdftex.def)             Requested size: 376.4679pt x 231.49507pt.
- [12 <d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/Graphics/Beispiel_Modell.png>]
 <Graphics/Ereignisdiskrete_Systeme.png, id=568, 498.36188pt x 270.25969pt>
 File: Graphics/Ereignisdiskrete_Systeme.png Graphic file (type png)
 <use Graphics/Ereignisdiskrete_Systeme.png>
@@ -983,7 +982,7 @@ Here is how much of TeX's memory you used:
 
 pdfTeX warning: pdflatex.exe (file c:/Windows/Fonts/simsun.ttc): subfont unisong22: wrong mapping: character 18 --> 0x2212 --> .notdef
 ><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>{c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Windows/Fonts/simsun.ttc><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/FST_Vorbreitung.pdf (41 pages, 1101422 bytes).
+Output written on d:/media/documents/Klasur_Vorbreitung/FST_Vorbreitung/FST_Vorbreitung.pdf (41 pages, 1101504 bytes).
 PDF statistics:
  880 PDF objects out of 1000 (max. 8388607)
  773 compressed objects within 8 object streams
